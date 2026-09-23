@@ -1,22 +1,52 @@
-* {
-  margin: 0; 
-  padding: 0;
-  box-sizing: border-box; 
-  font-family: Arial, sans-serif;
+* { 
+    margin: 0;          
+    padding: 0;                   
+    box-sizing: border-box;        /* Inclui bordas e espacamentos no calculo do tamanho total */
+    font-family: Arial, sans-serif;/* Define a fonte padrao para toda a pagina */
+} 
 
-body {
-    background-color: #f4f7f6;             
-    justify-content: center;               
-    align-items: center;           
-    padding: 40px 20px;                   
-    min-height: 100vh;                    
+body { 
+    background-color: #f4f7f6;     /* Define a cor de fundo cinza claro para a pagina */
+    display: flex;                 /* Ativa o Flexbox para alinhar os elementos filhos */
+    justify-content: center;       /* Centraliza o formulario horizontalmente na tela */
+    align-items: center;           /* Centraliza o formulario verticalmente na tela */
+    min-height: 100vh;             /* Garante que o fundo ocupe toda a altura visivel da tela */
+    padding: 20px;                 /* Cria um espacamento nas bordas para telas pequenas */
+} 
+
+form { 
+    background-color: #ffffff;   /* Define o fundo do formulario como branco */
+    max-width: 600px;              /* Define a largura maxima que o formulario pode atingir */
+    width: 100%;                   /* Faz o formulario se adaptar e ocupar a largura disponivel */
+    padding: 30px;                 /* Cria um espacamento interno generoso dentro do formulario */
+    border-radius: 8px;            /* Deixa as quatro pontas do formulario arredondadas */
 }
 
-.input {
-    background-color: #ffffff;            
-    max-width: 600px;                    
-    width: 100%;                           
-    padding: 30px;                        
-    border-radius: 8px;                    
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+form div {
+    margin-bottom: 15px;           /* Cria um espacamento abaixo de cada bloco do formulario */
+    display: flex;                 /* Ativa o Flexbox para organizar os itens dentro do bloco */
+    flex-direction: column;        /* Alinha a legenda e o campo de texto um abaixo do outro */
 }
+
+form label {
+    margin-bottom: 5px;           /* Cria um pequeno espacamento entre a legenda e o campo */
+    font-weight: bold;             /* Deixa o texto da legenda em negrito */
+}
+
+form input {
+    padding: 8px;                  /* Cria um espacamento interno para o texto nao tocar nas bordas */
+    border: 1px solid #ccc;        /* Adiciona uma borda fina e cinza ao redor do campo */
+    border-radius: 4px;            /* Deixa as pontas do campo levemente arredondadas */
+}
+
+.botao {
+    width: 100%;                   /* Faz o botao ocupar toda a largura do formulario */
+    padding: 10px;                 /* Aumenta a altura interna do botao para facilitar o clique */
+    background-color: #2ecc71;     /* Define a cor de fundo do botao como verde */
+    color: white;                  /* Define a cor do texto do botao como branca */
+    border: none;                  /* Remove qualquer borda padrao do botao */
+    border-radius: 4px;            /* Deixa as pontas do botao levemente arredondadas */
+    cursor: pointer;               /* Transforma a seta do mouse em maozinha ao passar no botao */
+    font-size: 16px;               /* Define o tamanho do texto dentro do botao */
+}
+
