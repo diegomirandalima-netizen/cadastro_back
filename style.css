@@ -1,14 +1,6 @@
 * {
     margin: 0;                             /* Remove as margens padrao de todos os elementos */
     padding: 0;                            /* Remove o preenchimento padrao de todos os elementos */
-    box-sizing: border-box;                /* Inclui bordas e preenchimentos no calculo total do tamanho do elemento */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a lista de fontes padrao para o site */
-}
-
-body {
-    background-color: #676d6b;             /* Define a cor de fundo da pagina (tom cinza claro esverdeado) */
-    display: flex;                         /* Ativa o modo de layout Flexbox no corpo da pagina */
-    align-items: center;                   /* Centraliza o conteudo verticalmente na tela */
 }                 
 .form-group {
 
