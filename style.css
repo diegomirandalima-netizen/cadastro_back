@@ -9,10 +9,7 @@ body {
     background-color: #676d6b;             /* Define a cor de fundo da pagina (tom cinza claro esverdeado) */
     display: flex;                         /* Ativa o modo de layout Flexbox no corpo da pagina */
     align-items: center;                   /* Centraliza o conteudo verticalmente na tela */
-    padding: 40px 20px;                    /* Adiciona um espacamento interno nas bordas da pagina */
-    min-height: 100vh;                      /* Garante que a pagina tenha no minimo a altura total da tela do navegador */
-}
-                   
+}                 
 .form-group {
 
 display: flex;
