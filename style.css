@@ -1,9 +1,21 @@
 * {
-    margin: 0;                             /* Remove as margens padrao de todos os elementos */
-    padding: 0;                            /* Remove o preenchimento padrao de todos os elementos */
-}                 
-.form-group {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: Arial, sans-serif;
 
-display: flex;
-
+body {
+    background-color: #f4f7f6;             
+    justify-content: center;               
+    align-items: center;           
+    padding: 40px 20px;                   
+    min-height: 100vh;                    
 }
+
+.form-container {
+    background-color: #ffffff;            
+    max-width: 600px;                    
+    width: 100%;                           
+    padding: 30px;                        
+    border-radius: 8px;                    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
