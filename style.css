@@ -14,6 +14,10 @@ body {
     padding: 20px;                 /* Cria um espacamento nas bordas para telas pequenas */
 } 
 
+.titulo {
+    justify-content: center;
+}
+
 form { 
     background-color: #ffffff;   /* Define o fundo do formulario como branco */
     max-width: 600px;              /* Define a largura maxima que o formulario pode atingir */
