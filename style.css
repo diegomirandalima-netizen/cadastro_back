@@ -5,6 +5,11 @@
     font-family: Arial, sans-serif;/* Define a fonte padrao para toda a pagina */
 } 
 
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
 body { 
     background-color: #f4f7f6;     /* Define a cor de fundo cinza claro para a pagina */
     display: flex;                 /* Ativa o Flexbox para alinhar os elementos filhos */
@@ -14,10 +19,6 @@ body {
     padding: 20px;                 /* Cria um espacamento nas bordas para telas pequenas */
 } 
 
-.titulo {
-    display: flex;
-    justify-content: center;
-}
 
 form { 
     background-color: #ffffff;   /* Define o fundo do formulario como branco */
