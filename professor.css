@@ -55,3 +55,13 @@ form input {
     font-size: 16px;               /* Define o tamanho do texto dentro do botao */
 }
 
+.botaovolta {
+    width: 100%;                   /* Faz o botao ocupar toda a largura do formulario */
+    padding: 10px;                 /* Aumenta a altura interna do botao para facilitar o clique */
+    background-color: #f13a0d;     /* Define a cor de fundo do botao como verde */
+    color: white;                  /* Define a cor do texto do botao como branca */
+    border: none;                  /* Remove qualquer borda padrao do botao */
+    border-radius: 4px;            /* Deixa as pontas do botao levemente arredondadas */
+    cursor: pointer;               /* Transforma a seta do mouse em maozinha ao passar no botao */
+    font-size: 16px; 
+}

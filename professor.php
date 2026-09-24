@@ -39,6 +39,10 @@
         </div> 
 
         <button class="botao" type="submit">Cadastrar</button>          <!-- Botao de envio que dispara as informacoes para o backend salvar_professor -->
+        <P>
+     <div class = "botaovolta">
+         <button class="botao" type="submit">voltar</button> 
+    </div>
     </form> 
 
 </body> 
